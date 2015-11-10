@@ -8,7 +8,7 @@ Questo progetto è di tipo amatoriale e probabilmente risulterà utile solo per 
 Il codice è libero.
 
 Il software permette l'aggiunta dei dipendenti, divisi per numero di ore.
-Permette l'aggiunta dell'orario mensile, inserendo come input l'anno, il mese, il primo giorno del mese ed eventuali festività.
+Permette l'aggiunta dell'orario mensile, inserendo come input l'anno, il mese, il primo giorno del mese ed eventuali festività. Ogni orario è una nuova tabella nel DB.
 Poi, randomizza i turni, scegliendo a caso l'indice del vettore contenente i nomi dei dipendenti
 Infine, permette la visualizzazione, in formato di tabella, dell'orario del mese desiderato e la sua esportazione come file .html.
 
@@ -25,6 +25,7 @@ The code is free.
 
 The software allows to add employees, divided by number of work.
 Allows to add the month's timetable, inserting as input the year, the month, the first day's name and any holidays.
+Every timetable is a new table in the DB.
 Then, it randomizes shifts, chosing a random array's index which contains employees's names.
 Finally, allows to see, in a table, the chosen month's timetable and its export in html ext.
 
